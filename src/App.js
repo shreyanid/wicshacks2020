@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import InfiniteCalendar from 'react-infinite-calendar';
+import 'react-infinite-calendar/styles.css'; // Make sure to import the default stylesheet
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       </header>
     </div>
   );
+
 }
 
 export default App;
